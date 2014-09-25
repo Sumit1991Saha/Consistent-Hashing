@@ -30,7 +30,6 @@ public class ConsistentHashing<T> {
 		this.hashFunction = hash;
 		noOfVirtualNodes = noOfDuplicateNodes;
 		
-		
 		for(T node: nodes ){
 			addServers(node);
 			
