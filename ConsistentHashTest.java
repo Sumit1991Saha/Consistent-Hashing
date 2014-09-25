@@ -128,7 +128,7 @@ public class ConsistentHashTest {
 		cht.deleteServer(consistentHashing, db, cht);
 		
 		
-		//cht.addServer(consistentHashing, db, cht,"212.123.143.178:7342");
+		cht.addServer(consistentHashing, db, cht,"212.123.143.178:7342");
 		
 	}
 
